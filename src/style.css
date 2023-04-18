@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+.topo input{
+    width: 80%;
+    color: white;
+    font-size: 15px;
+    border: none;
+    background: none;
+    outline: none;
+ }
+ 
+ .topo ::placeholder{
+    color: white;
+ }
+ 
+ .topo{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-image: linear-gradient(to bottom,#0e1e89,#222843 );
+    align-items: center;
+    height: 120px;
+ }
+ 
+
+.logo{
+    background: #d7d7d7;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background: #69729a;
+    width: 50%;
+    padding: 12px;
+}
+
+/* NAVEGATION */
+
+.naveg{
+    padding: 15px;
+    background: #222843;
+    box-shadow: 0 5px 7px black;
+}
+
+
+.naveg a{
+    padding: 10px;
+    background:#69729a;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration:.2s; 
+}
+
+.naveg a:hover{
+    background: #f2f2f2a1;
+}
+
+/* MENU */
+
+.principal{
+    padding: 20px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+p{
+  margin: 15px 0;
+  text-align: justify;
+}
+
+strong{
+    background: #222843;
+    color: white;
+}
+
+strong:hover{
+    text-decoration: underline;
+}
+
+/* ANSIDE */
+
+aside{
+    background: #c1c1c1;
+    padding: 20px;
+}
+
+aside h2{
+    background: #222843;
+    padding: 10px;
+    margin: -21px -21px 0 -21px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+}
+
+/* FOOTER */
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background:#222843;
+    color: white;
+    
+}
+
+/* VIDEO */
+.video{
+    position: relative;
+    width: 100%;
+    background: #222843;
+    margin:0 20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+
+}
+
+.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+/* IMAGENS */
+
+.img2{
+    width: 100%;
+    height: 300px;
+}
+
+.img1{
+   max-width: 300px;
+   display: block;
+   margin: auto;
+}
